@@ -1,0 +1,26 @@
+上記の説明で.on('click', function () {});と書きましたが、
+.onの部分を.clickと書いても同じ実行結果となります。
+.click(function () {});
+なぜ上記書き方で書かなかったのか調べて自分なりの言葉にしてまとめてください。
+
+
+・click()は途中から追加されたHTML要素を検出できない
+・click()は複数イベントを定義できない
+などのデメリットがあるから
+
+
+※参考サイト
+【jQueryの基本の"き"】パート4 - jQueryのいろんなバージョン
+https://blog.mudatobunka.org/entry/2016/09/04/023121
+
+jquery.slim版のために、ネイティブJSで動く自動スクロールを作ってみた
+https://blog.capilano-fw.com/?p=382
+
+【JQuery】click()とon(click)の違い
+https://qiita.com/sho91/items/22279a44499aebd7b49a
+
+jQueryでクリックイベントで処理を実行する：on(), click()
+https://uxmilk.jp/10065
+
+jQuery 便利なonを使おう（on click)
+https://qiita.com/shizuma/items/d561f37f864c3ebb5096
